@@ -23,10 +23,11 @@ function currentLine(katzDeliLine) {
   } return `The line is currently: ${lineOrder.join(', ')}`
 }
 
+let customerCount = 0;
 
 function ticketWheel() {
-  let customerCount = 0;
-  console.log(`Welcome, your ticket number is ${customerCount + 1}`);
+  customerCount = customerCount + 1;
+  console.log(`Welcome, your ticket number is ${customerCount}`);
 }
 
 ticketWheel()
