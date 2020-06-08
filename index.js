@@ -26,8 +26,7 @@ function currentLine(katzDeliLine) {
 
 function ticketWheel() {
   let customerCount = 0;
-  customerCount = customerCount + 1;
-  console.log(`Welcome, your ticket number is ${customerCount}`);
+  console.log(`Welcome, your ticket number is ${customerCount + 1}`);
 }
 
 ticketWheel()
